@@ -135,7 +135,7 @@
 
     /*seção para layout responsivo */
 
-    @media (max-widh: 1000px){
+    @media (max-width: 1000px){
          header{
             padding-top:10px;
             padding-bottom:10px;
