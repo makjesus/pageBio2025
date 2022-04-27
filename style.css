@@ -11,7 +11,7 @@
            height: 150px;
            position: fixed;
            width: 100%;
-           border-radius: 20px 20px;
+           border-radius: 10px 10px;
        }
 
        
@@ -23,7 +23,7 @@
 
     nav{
         width: 80%;
-        max-width: 1100px;
+        max-width: 1000px;
         height: 100%;
         margin: 0 auto;
         display: flex;
@@ -34,29 +34,55 @@
 
     .navbar-brand{
         padding: 10px;
-        font-size: 30px;
+        font-size: 10px;
+        width: 10px;
+        height: 10px;
+       
+        
     }
 
     ul{
         list-style-type: none;
     }
 
-    .menu-itens{
+    .menu-items{
         display: flex;
         list-style-type:none;
     }
+    .portifolio{
+        font-size:10px;
+        padding: -10px;
+        text-align:right;
+        
+    }
+    .linkedin{
+        font-size:10px;
+        padding: -10px;
+        text-align:right;
+     
+    }
+    .projects{
+        font-size:10px;
+        padding: -10px;
+        text-align:right;
+    }
+    .resume{
+        padding: -10px;
+        font-size:10px;
+        text-align:left;
+    }
 
-    .menu-itens a{
+    .menu-items a{
         padding: 15px;
         font-size: 17px;
         display: block;
     }
 
-    .menu-itens a:hover{
+    .menu-items a:hover{
         color:lime;
     }
 
-    .menu-itens li{
+    .menu-items li{
         margin-left: 5px;
         margin-right: 5px;
     }
@@ -101,7 +127,7 @@
      
     #portfolio{
         width:80%;
-        max-width: 1200px;
+        max-width:1200px;
         height: 100%;
         margin:0 auto;
     }
@@ -138,31 +164,34 @@
     @media (max-width: 1000px){
          header{
             padding-top:10px;
-            padding-bottom:15px;
+            padding-bottom:10px;
         } 
         nav{
             display:block;
              text-align: center; 
+             
 
         }
-         .menu-itens{
+         .menu-items{
             justify-content: center;
             padding:0;
             display:flex;
         }
         .navbar-brand{
-            font-size:20px;
+            font-size:25px;
         }
         .profile-title{
-            font-size: 40px;
+            font-size: 10px;
+
         }
     }
 
     @media (max-width:550px){
         .navbar-brand{
             display: block;
-            text-align: left;
+            text-align:center;
             padding-left: 10px;
+            
         }
 
         .profile-description{
